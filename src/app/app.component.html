@@ -1,0 +1,26 @@
+<ion-contnet>
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <img src="assets/image1.jpg">
+        
+        <ion-input placeholder="Enter Password here" type="password" id="user-input">
+        </ion-input>
+
+        <ion-button color="dark" id="set-btn">
+          <ion-icon name="key" slot="start"></ion-icon>
+         <ion-label>set password</ion-label>
+        </ion-button>
+
+        <ion-button color="dark" id="access-btn" style="display:none">
+          <ion-icon name="key" slot="start"></ion-icon>
+         <ion-label>Access</ion-label>
+        </ion-button>
+
+        <small id="password-empty-notice" style="color:red;display:none">Your pasword is empty!</small>
+        <small id="password-wrong" style="color:red;display:none">Your pasword is wrong!</small>
+      </ion-card-header>
+    </ion-card>
+  </div> 
+</ion-contnet>
+
